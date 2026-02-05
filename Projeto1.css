@@ -1,0 +1,31 @@
+.galeria{
+    margin: 2rem;
+    height: 20em;
+    gap: 0.5em;
+    display: flex;
+}
+
+.galeria div{
+    flex: 1;
+    background-size: cover;
+    background-position: center top;
+    transition: all 1s cubic-bezier(0, .78, .7,1);
+}
+
+.galeria div:hover{
+    flex: 5;
+    
+}
+
+.galeria:hover div:not(:hover){
+    filter: grayscale(100%);
+  
+}
+
+/* -----------------ALTERA IMAGEM DO CURSOR (MOUSE)------------------------- */
+
+body{
+    /* cursor: url(./11zon_Letter-L-Transparent-Images.cur), default; */
+}
+
+/* -----------------ALTERA IMAGEM DO CURSOR (MOUSE)------------------------- */
